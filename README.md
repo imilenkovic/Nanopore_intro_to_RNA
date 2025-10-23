@@ -103,4 +103,4 @@ sed -i 's/cpus = 8/cpus = 4/g' conf/local.config
 ##  Documentation
 
 Full documentation:  
-👉 [https://biocorecrg.github.io/master_of_pores/](https://biocorecrg.github.io/master_of_pores/)
+[[https://biocorecrg.github.io/master_of_pores/](https://biocorecrg.github.io/master_of_pores/MOP4-dev/index.html)]
