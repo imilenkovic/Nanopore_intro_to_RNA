@@ -7,17 +7,8 @@ This guide walks through the first steps of exploring **Master of Pores** and in
 
 ---
 
-##  Explore the Master of Pores Repository
 
-Clone the repository from GitHub:
-
-```bash
-git clone https://github.com/biocorecrg/master_of_pores
-```
-
----
-
-##  Explore Input Data (FAST5)
+##  Explore Input Data (pod5)
 
 Navigate to the input directory:
 
@@ -25,22 +16,22 @@ Navigate to the input directory:
 cd Share/input/mRNA
 ```
 
-List contents of a `.fast5` file:
+List contents of a `.pod5` file:
 
 ```bash
-h5ls mESCs_Mettl3_WT_0.fast5 | head
+h5ls mESCs_Mettl3_WT_0.pod5 | head
 ```
 
 Count the total number of groups/datasets:
 
 ```bash
-h5ls mESCs_Mettl3_WT_0.fast5 | wc -l
+h5ls mESCs_Mettl3_WT_0.pod5 | wc -l
 ```
 
 Recursively inspect the structure:
 
 ```bash
-h5ls -r mESCs_Mettl3_WT_0.fast5 | head
+h5ls -r mESCs_Mettl3_WT_0.pod5 | head
 ```
 
 ---
