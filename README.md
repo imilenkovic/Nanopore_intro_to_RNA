@@ -76,20 +76,6 @@ All outputs are saved in the `nanoplot_output/` directory.
 
 ---
 
-##  Install Master of Pores
-
-Clone and install with **Guppy 3.4.5**:
-
-```bash
-git clone --depth 1 --recurse-submodules https://github.com/biocorecrg/master_of_pores.git
-cd master_of_pores
-sh INSTALL.sh 3.4.5
-```
-
-*(You can modify the version number to use a different Guppy release.)*
-
----
-
 ##  Adjust Configuration
 
 To reduce CPU usage to 4 cores, run:
