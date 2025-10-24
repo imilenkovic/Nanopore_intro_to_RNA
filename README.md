@@ -40,7 +40,25 @@ List contents of a `.pod5` file:
 Count the total number of groups/datasets:
 
 ```bash
-pod5 inspect summary mouse_mRNA.pod5```
+pod5 inspect summary mouse_mRNA.pod5
+```
+
+
+##  Demultiplex your pod5 files with Seqtagger
+
+Navigate to the pre-processing directory:
+
+```bash
+cd ~/MOP4/mop_preprocess
+```
+
+Edit the  `params.yaml` file
+
+Run the pipeline!
+
+```bash
+nextflow run mop_preprocess.nf -params-file params.yaml -with-singularity --nv -profile local -bg > demultiplexing.log
+```
 
 ##  Documentation
 
