@@ -5,6 +5,20 @@ Introduction to dRNA sequencing and correponding analyses
 
 This guide walks through the first steps of exploring **Master of Pores** and inspecting example nanopore input data.
 
+
+First - check if you have nextflow installed.
+
+```
+nextflow -version
+```
+If not, install it this way:
+```
+wget https://github.com/nextflow-io/nextflow/releases/download/v25.04.0/nextflow
+chmod +x nextflow
+mkdir -p ~/bin
+mv nextflow ~/bin/
+echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
+```
 ---
 
 
