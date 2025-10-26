@@ -55,7 +55,24 @@ Edit the  `params.yaml` file
 Run the pipeline!
 
 ```bash
-nextflow run mop_preprocess.nf -params-file params.yaml -with-singularity --nv -profile local -bg > demultiplexing.log
+nextflow run mop_preprocess.nf -params-file params.yaml -with-singularity -profile local -bg > demultiplexing.log
+```
+
+
+If it fails? Resume!
+
+```bash
+nextflow run mop_preprocess.nf -params-file params.yaml -with-singularity -profile local -bg -resume > demultiplexing2.log
+```
+
+If you need to kill it? (don’t restart if you haven’t killed the previous processes!)
+
+```bash
+cat .nextflow.pid
+
+> 1234
+
+kill 1234
 ```
 
 ##  Documentation
