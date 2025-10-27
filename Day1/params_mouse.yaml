@@ -1,7 +1,7 @@
 # Parameters
 
 # Needed for pod5 input
-pod5: "/home/ubuntu/data/mouse/pod5/mouse_mRNA.pod5"
+pod5: "~/Share/data/mouse/pod5/mouse_mRNA.pod5"
 ## Can be OFF / cuda10 / cuda11.
 GPU: "cuda11"
 # Basecalling can be either NO, dorado, dorado-mod or dorado-duplex
@@ -21,10 +21,10 @@ barcodes: ""
 fastq: ""
 
 # Common
-reference: "/home/ubuntu/references/chr19.fa"
+reference: "~/Share/references/chr19.fa"
 ## Can be transcriptome / genome
 ref_type: "genome"
-annotation: "/home/ubuntu/references/gencode.vM38.annotation.gtf"
+annotation: "~/Share/references/chr19_annotation.gtf"
 ## Can be nanoq / nanofilt
 filtering: "nanoq"
 ## Can be graphmap / graphmap2 / minimap2 / winnowmap / bwa / NO
