@@ -1,6 +1,24 @@
 
 #  Master of Pores – Day 2 Basecalling & Mapping
 
+First - check if you have nextflow installed.
+
+```
+nextflow -version
+```
+If not, install it this way:
+```
+cd ~
+wget https://github.com/nextflow-io/nextflow/releases/download/v25.04.0/nextflow
+chmod +x nextflow
+mkdir -p ~/bin
+mv nextflow ~/bin/
+echo 'export PATH=$HOME/bin:$PATH' >> ~/.bashrc
+source .bashrc
+```
+---
+
+
 ##  Basecall your pod5 files with Dorado 
 
 Navigate to the pre-processing directory:
