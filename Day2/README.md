@@ -71,7 +71,7 @@ samtools view –Sb file.sam > new_file.bam
 For each bam file we can assign reads to knwon isoforms:
 
 ```bash
-IsoQuant/isoquant.py --reference Share/references/chr19.fa --genedb Share/references/chr19_annotation.gb --complete_genedb --bam Share/data/mouse/output/dorado_fast/alignment/pod5---bc_1_s.bam --data_type nanopore -o isoquant_bc1
+IsoQuant/isoquant.py --reference Share/references/chr19.fa --genedb Share/references/chr19_annotation.db --complete_genedb --bam Share/data/mouse/output/dorado_fast/alignment/pod5---bc_1_s.bam --data_type nanopore -o isoquant_bc1
 ```
 
 ## Discover isoforms with Isoquant
