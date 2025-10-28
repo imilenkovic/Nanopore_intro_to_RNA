@@ -32,7 +32,7 @@ Edit the  `params.yaml` file
 Run the pipeline!
 
 ```bash
-nextflow run mop_preprocess.nf -params-file params.yaml -with-singularity --nv -profile local -bg > demultiplexing.log
+nextflow run mop_preprocess.nf -params-file params.yaml -with-singularity -profile local -bg > demultiplexing.log
 ```
 
 ##  Basecall your pod5 files with Dorado 
