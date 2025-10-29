@@ -24,7 +24,7 @@ Rscript scatterplot_script.R file_1.csv file_2.csv output.pdf
 ## Extract modification frequency per position with Modkit
 
 ```bash
-modkit pileup Share/data/mouse/output/dorado_m6A_drach/mouse_drach_trial/alignment/pod5---bc_1_s.bam modkit/CTR_m6A_pileup.bed --log-filepath CTR_m6A_pileup.log
+modkit pileup Share/data/mouse/output/dorado_m6A_drach/mouse_drach_trial/alignment/pod5---bc_1_s.bam modkit/CTR_m6A_pileup.bed --log-filepath modkit/CTR_m6A_pileup.log
 ```
 
 
