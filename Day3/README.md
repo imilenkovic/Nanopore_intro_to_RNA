@@ -17,6 +17,10 @@ basecalling: "dorado-mod"
 dorado-mod: "hac,pseU --estimate-poly-a"
 ```
 
+```
+nextflow run mop_preprocess.nf -params-file params.yaml -with-singularity -profile local -bg > log_file.log
+```
+
 Inspect the bam file:
 
 ```
