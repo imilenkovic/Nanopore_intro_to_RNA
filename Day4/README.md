@@ -14,7 +14,7 @@ Find which modifications are missing in each barcode.
 
 In ```/home/ubuntu/Share/data/yeast/pod5``` you will find raw sequencing data done on yeast rRNA samples (S. cerevisiae).
 
-Use a modification-aware basecaller to predict pseU sites in 18S and 28S rRNA. Investigate how well the predictions match the ground truth (known modifications).
+Use a modification-aware basecaller to predict pseU sites in 18S and 25S rRNA. Investigate how well the predictions match the ground truth (known modifications).
 
 ## Assignment 3
 
